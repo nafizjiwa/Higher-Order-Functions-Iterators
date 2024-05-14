@@ -1,4 +1,4 @@
-# HigherOrderFunctions<br>
+# HigherOrderFunctions and Iterators <br>
 
 | Iterator Method | Descriiption of Iterator Method|
 |---|---|
