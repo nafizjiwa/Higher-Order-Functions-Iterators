@@ -9,7 +9,7 @@
 | array.reduce() | iterates through an array and takes the values of the elements and returns a single value. |
 | All iterator methods take a callback function which makes them higher order functions  |
 <br>
-# HIGHER ORDER FUNCTIONS (HOF): <br>
+## HIGHER ORDER FUNCTIONS (HOF): <br>
 
 ------
 that takes one or more functions as arguments, or returns a function as its result.
