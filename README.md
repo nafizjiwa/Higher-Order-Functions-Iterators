@@ -12,10 +12,27 @@
 
 ## HIGHER ORDER FUNCTIONS (HOF): <br>
 
-------
-that takes one or more functions as arguments, or returns a function as its result.
+------<br>
+Take one or more functions as arguments, or returns a function as its result.<br>
+// Callback function, passed as a parameter in the higher order function below:<br>
 
- 
+    function callbackFunction(){
+          console.log('I am  a callback function');
+     }
+// higher order function<br>
 
+    function higherOrderFunction(func){
+         console.log('I am higher order function')
+         func()
+    }
+// call the higher order function<br>
+
+    higherOrderFunction(callbackFunction);
+The above higher order functions take take a callback function as an argurment.<br>
+
+    const arr = [1, 2, 3, 4, 5];
+    const output = arr.map((num) => num += 10)
+    console.log(arr); // [1, 2, 3, 4, 5]
+    console.log(output); // [11, 12, 13, 14, 15]
 
 
