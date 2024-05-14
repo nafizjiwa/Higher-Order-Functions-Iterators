@@ -10,7 +10,7 @@
 | All iterator methods take a callback function which makes them higher order functions  |
 <br>
 # HIGHER ORDER FUNCTIONS (HOF): <br>
----
+------
 that takes one or more functions as arguments, or returns a function as its result.
 
  
