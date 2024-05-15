@@ -28,10 +28,12 @@ Take one or more functions as arguments, or returns a function as its result.<br
 // call the higher order function<br>
 
     higherOrderFunction(callbackFunction);
-The above higher order functions take take a callback function as an argurment.<br>
+
+The Iterators above are higher order functions which take a callback function as an argurment. Eample:<br> 
+##### .map();<br>
 
     const arr = [1, 2, 3, 4, 5];
-    const output = arr.map((num) => num += 10)
+    const output = arr.map((num) => num += 10) //Using the msp function to add ten to all elements.
     console.log(arr); // [1, 2, 3, 4, 5]
     console.log(output); // [11, 12, 13, 14, 15]
 
